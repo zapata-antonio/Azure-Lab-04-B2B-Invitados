@@ -1,21 +1,24 @@
-# Lab 04: Colaboración Segura con Invitados (B2B)
+# 🧪Lab 04: Colaboración Segura con Invitados (B2B)
 
 ## 🎯 Objetivo
 Permitir acceso a terceros usando sus credenciales (B2B), sin gestionar contraseñas internas, y gobernar el acceso mediante grupos.
 
 ## 🛠️ Tareas realizadas
 1. Invitación B2B a un correo real (externo).
-2. Aceptación de la invitación por parte del invitado (acceso verificado).
-3. Verificación en Microsoft Entra del estado **Guest** + **Accepted**.
-4. Creación del grupo **GRP_Consultores_Externos** y asignación del invitado al grupo.
+2. Creación del grupo **GRP_Consultores_Externos** y asignación del invitado al grupo.
+3. Aceptación de la invitación por parte del invitado (acceso verificado).
+4. Verificación en Microsoft Entra del estado **Guest** + **Accepted**.
 
 ## 📸 Evidencias
 
-### 1) Invitado accede tras aceptar (ventana incógnito)
+### 1) Grupo **GRP_Consultores_Externos** con el invitado añadido
+[<img src="images/02-grupo-externos.png" width="800">](images/02-grupo-externos.png)
+
+### 2) Invitado accede tras aceptar (ventana incógnito)
 [<img src="images/01-guest-accepted.png" width="800">](images/01-guest-accepted.png)
 
-### 2) Invitado registrado en Entra como **Guest** con estado **Accepted**
-[<img src="images/02-grupo-externos.png" width="800">](images/02-grupo-externos.png)
+### 3) Invitado registrado en Entra como **Guest** con estado **Accepted**
+[<img src="images/02-guest-accepted.png" width="800">](images/02-guest-accepted.png)
 
 > Nota: Se omite la captura del email recibido para evitar ruido.
 
